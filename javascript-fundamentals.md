@@ -1,7 +1,4 @@
-# javascript-interview-questions-i-ask
-JavaScript Fundamental questions I ask during an interview.
-
-## Fundamental JavaScript Exercise
+# JavaScript Fundamental Interview Questions
 
 1. What is the difference between undefined and not defined in JavaScript?
 
