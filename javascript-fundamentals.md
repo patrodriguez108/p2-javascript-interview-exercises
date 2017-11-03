@@ -31,7 +31,9 @@ Closure is defining a variable within an outer scope that can and will be access
 
 4. What is pass by value and pass by reference?
 
+When a variable that is defined in an outer scope is passed into a function, that value is copied within the scope of the function and processes this copy as a local variable. The original variable in the outside scope remains unchanged. This is passing by value.
 
+Passing by reference would be when that variable defined in the outside scope is passed into a function and redefines the value of the variable within the outer scope after the function is run. This is impossible when using Javascript.
 
 5. What is the difference between the function declarations below?
 
