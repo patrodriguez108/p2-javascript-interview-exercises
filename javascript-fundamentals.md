@@ -21,11 +21,13 @@ A function would be unable to process if a variable of a function is not defined
 
 Closure is defining a variable within an outer scope that can and will be accessed within the scope of children functions.
 
-```var bleh = "whaa"
+  ```
+  var bleh = "whaa"
 
-function okay() {
-  return "Okay but " + bleh
-}```
+  function okay() {
+    return "Okay but " + bleh
+  }
+  ```
 
 4. What is pass by value and pass by reference?
 
@@ -110,17 +112,21 @@ It would call on the function without needing to write any extra characters belo
   
 9. Implement the following function `add(num1)(num2)`. For example: `add(1)(1)` = 2
 
-```function add(num1) {
-  return function addToThis(num2) {
-    return num1 + num2
+  ```
+  function add(num1) {
+    return function addToThis(num2) {
+      return num1 + num2
+    }
   }
-}```
+  ```
 
 10. Write a function that prints out the amount of times it has been invoked.
 
-```i = 0
+  ```
+  i = 0
 
-function invokeMe() {
-  i += 1
-  console.log(i)
-}```
+  function invokeMe() {
+    i += 1
+    console.log(i)
+  }
+  ```
